@@ -1,0 +1,20 @@
+h2{
+    color:blueviolet
+}
+p{
+    text-align: center;
+    color:brown
+    
+}
+
+
+/*       to target class we use .     */
+.par{
+    color:aquamarine
+}
+
+
+/*     to target id we use #     */
+#av{
+    color:blue
+}
