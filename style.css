@@ -103,14 +103,15 @@ div{height: 10px;
  }
 @media(orientation: landscape){
     body{
-        background-color: aqua;
+        background-color: rgb(178, 163, 180);
     }
 }
 
 .box{
-    width: 800px;
+    width: 100px;
     height: 100px;
-    background-color: blue;
+    background-color: rgb(139, 66, 66);
+    text-align: center;
 
 
 }
@@ -121,3 +122,4 @@ nav ul{
     display: flex;
     justify-content: space-around;
 }
+
