@@ -52,12 +52,14 @@ div{height: 10px;
    width: 500px;
    background-color: lightgrey;
    border: 2px solid black;
-   grid-template-columns: repeat(4,1fr);
+   grid-template-columns: repeat(4,100px);
    grid-template-rows: repeat(3,1fr);
    grid-template-areas: "header header header header" "main main . sidebar" "footer footer footer footer";
    column-gap: 10px;
    justify-items: center ;
    align-items: center;
+   justify-content: space-around;
+   align-content: space-around;
 }
 .item{
     border: 2px solid black;
@@ -65,6 +67,7 @@ div{height: 10px;
     height: 100px; 
     width: 100px;
     text-align: center; 
+    justify-self: right;
     
 }
 /* .item1{
