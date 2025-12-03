@@ -43,9 +43,9 @@ div{height: 10px;
     border: 2px solid red;
 } */
 
+            /* latest */
 
-
-.container
+/* .container
 {
     display: grid;
    height: 500px;
@@ -69,7 +69,10 @@ div{height: 10px;
     text-align: center; 
     justify-self: right;
     
-}
+} */
+
+
+
 /* .item1{
     grid-area: header;
 }
@@ -83,3 +86,38 @@ div{height: 10px;
     grid-area: footer;
 }
  */
+
+
+
+
+
+ @media(max-width:780px){
+    p{
+        font-size: 20px;
+    }
+ }
+ @media(min-width:520px){
+    p{
+        font-size: 5px;
+    }
+ }
+@media(orientation: landscape){
+    body{
+        background-color: aqua;
+    }
+}
+
+.box{
+    width: 800px;
+    height: 100px;
+    background-color: blue;
+
+
+}
+li{
+    list-style-type: none;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
